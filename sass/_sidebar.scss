@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .nav-btn {
     border: none;
     border-radius: 0;
@@ -15,6 +19,8 @@
     height: 2px;
     width: 4.5rem;
     margin-top: 4rem;
+
+    cursor: pointer;
 
     &::before,
     &::after {

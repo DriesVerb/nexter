@@ -78,13 +78,17 @@ body {
   display: flex;
   justify-content: center; }
 
+.pointer {
+  cursor: pointer; }
+
 .nav-btn {
   border: none;
   border-radius: 0;
   background-color: #ffffff;
   height: 2px;
   width: 4.5rem;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  cursor: pointer; }
   .nav-btn::before, .nav-btn::after {
     content: "";
     background-color: #ffffff;
