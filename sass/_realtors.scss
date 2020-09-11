@@ -10,6 +10,10 @@
     grid-row-gap: 2rem;
     justify-items: center;
 
+    @media only screen and (max-width: $bp-medium) {
+        grid-column: 1 / -1;
+    }
+
     &__list {
 
         display: grid;
@@ -17,6 +21,15 @@
         grid-column-gap: 10px;
         grid-row-gap: 5vh;
         align-items: center;
+
+        @media only screen and (max-width: $bp-medium) {
+            grid-template-columns: repeat(3, min-content max-content);
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            grid-template-columns: min-content max-content;
+        }  
+
 
     }
 
